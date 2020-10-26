@@ -1,7 +1,9 @@
 import React from "react";
 import "./App.css";
+import "./css/main.css";
 
 import Navigationbar from "./components/Navigationbar";
+import Footer from "./components/Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Alert, Breadcrumb, Button, Card, Container } from "react-bootstrap";
@@ -27,6 +29,8 @@ function App() {
         <Alert variant="success">This is a button</Alert>
         <Button>Test Button</Button>
       </Container>
+
+      <Footer></Footer>
     </div>
   );
 }
